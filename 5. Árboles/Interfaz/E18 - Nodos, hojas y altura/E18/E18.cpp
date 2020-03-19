@@ -6,36 +6,22 @@
 
 
 /*CUENTA EL NUMERO DE NODOS QUE TIENE EL ÁRBOL*/
-void nodos(bintree<char> const &arbol, int &n) {
-	//Cuando lleguemos al nodo nulo volvemos sin sumar nodo
+int nodos(bintree<char> const &arbol) {
 	if (arbol.empty()) {
-		return;
+		return 0;
 	}
-	else {
-		//Sumamos uno al numero de nodos puesto que no hemos llegado al nodo nulo
-		n++;
-
-		//Comprobamos el arbol por la izquierda
-		nodos(arbol.left(), n);
-
-		//Comprobamos el arbol por la derecha
-		nodos(arbol.right(), n);
-	}
+	return nodos(arbol.left()) + nodos(arbol.right()) + 1;
 }
 
-void hojas(bintree<char> const &arbol, int &h) {
+int hojas(bintree<char> const &arbol) {
 	if (arbol.empty()) {
-		return;
+		return 0;
 	}
-	else {
-		if (arbol.left().empty() && arbol.right().empty()) {
-			h++;
-			return;
-		}
-		
-		hojas(arbol.right(), h);
-		hojas(arbol.left(), h);
-	}
+
+	if (arbol.right().empty() && arbol.left().empty())
+		return 1;
+
+	return hojas(arbol.right()) + hojas(arbol.left());
 }
 
 
@@ -55,19 +41,8 @@ bool resuelveCaso(int &casos) {
 		return false;
 
 	auto arb = leerArbol('.');
-	
-	//Contamos el numero de nodos con la función "nodos", tendremos el valor en la variable 'n'
-	int n = 0;
-	nodos(arb, n);
 
-	//Contamos el número de hojas que tiene el árbol con la función "hojas", guardamos en la variable 'h'
-	int h = 0;
-	hojas(arb, h);
-
-	//Vemos la altura del árbol, igualamos a la función "altura" ya que nos devolverá esta
-	int a = altura(arb);
-
-	std::cout << n << " " << h << " " << a << std::endl;
+	std::cout << nodos(arb) << " " << hojas(arb) << " " << altura(arb) << std::endl;
 
 	casos--;
 	return true;
