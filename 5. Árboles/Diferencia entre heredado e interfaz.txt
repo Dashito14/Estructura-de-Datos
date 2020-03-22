@@ -1,0 +1,6 @@
+En las dos carpetas los 4 ejercicios son los mismos pero implementados de formas distintas.
+
+- Heredado: Hay que crear una clase que herede la interfaz bintree, y en esta clase crear nuevas funciones para resolver el problema.
+- Interfaz: Simplemente utilizando las funciones de bintree [empty(), root(), left() y right()].
+
+- Otros: Más tarde se subieron más ejercicios que no estaban divididos de esta forma y que por tanto he clasificado en una carpeta distinta.
