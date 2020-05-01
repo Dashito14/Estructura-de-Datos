@@ -1,0 +1,5 @@
+﻿  E38.cpp
+c:\users\dipdn\source\repos\e38\e38\e38.cpp(82): warning C4018: '<': no coinciden signed/unsigned
+c:\users\dipdn\source\repos\e38\e38\e38.cpp(95): warning C4018: '<': no coinciden signed/unsigned
+c:\users\dipdn\source\repos\e38\e38\e38.cpp(108): warning C4018: '<': no coinciden signed/unsigned
+  E38.vcxproj -> C:\Users\dipdn\source\repos\E38\Debug\E38.exe
