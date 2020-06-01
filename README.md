@@ -53,7 +53,7 @@ En el apartado de árboles la "H" significa herencia y la "I" interfaz. Mejor ex
 
 16 - [Un viaje a la luna](https://github.com/Dashito14/Estructura-de-Datos/tree/master/4.%20Listas/E16%20-%20Un%20viaje%20a%20la%20luna/E16%20-%2016)
 
-53 - Intercambiar los elementos de una lista de dos en dos
+53 - [Intercambiar los elementos de una lista de dos en dos](https://github.com/Dashito14/Estructura-de-Datos/tree/master/4.%20Listas/E53%20-%20Intercambiar%20los%20elementos%20de%20una%20lista%20de%20dos%20en%20dos)
 
 ## Árboles
 
@@ -137,4 +137,4 @@ En el apartado de árboles la "H" significa herencia y la "I" interfaz. Mejor ex
 
 42 - Camino de pares
 
-52 - Problemas en la central nuclear
+52 - [Problemas en la central nuclear](https://github.com/Dashito14/Estructura-de-Datos/tree/master/Evaluaci%C3%B3n%20Continua/E52%20-%20Problemas%20en%20la%20central%20nuclear)
