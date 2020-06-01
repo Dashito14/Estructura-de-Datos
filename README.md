@@ -121,7 +121,7 @@ En el apartado de árboles la "H" significa herencia y la "I" interfaz. Mejor ex
 
 ## TAD
 
-46 - Carnet por puntos 1
+46 - [Carnet por puntos 1](https://github.com/Dashito14/Estructura-de-Datos/tree/master/7.%20TAD/E46%20-%20Carnet%20por%20puntos%201)
 
 47 - Carnet por puntos 2
 
