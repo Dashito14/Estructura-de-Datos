@@ -46,8 +46,8 @@ bool resuelveCaso(int &casos) {
 
 	int i = 0;
 
-	//La o mayúscula es lo que indica el vacío, es tipo char
-	auto arb = leerArbol('O');
+	//La punto es lo que indica el vacío, es tipo char
+	auto arb = leerArbol('.');
 
 	std::cout << nodosSalvo(arb, i).t << std::endl;
 
